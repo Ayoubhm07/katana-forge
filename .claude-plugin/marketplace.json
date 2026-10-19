@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "katana-forge",
+  "description": "Katana Forge: the frontend hunters for Claude Code.",
+  "owner": {
+    "name": "Ayoub Hammoudi",
+    "url": "https://ayoubhammoudi.com"
+  },
+  "metadata": {
+    "description": "A squad of 8 agents and a battle-tested skill that ship frontends people call a masterpiece.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "katana-forge",
+      "source": "./",
+      "description": "8 named agents, a 7-wave plan with ready-to-paste prompts, 13 production-proven signature moves with reference code, a motion doctrine, a masterpiece gate, and the ui-ux-pro-max design database bundled.",
+      "version": "1.0.0",
+      "author": { "name": "Ayoub Hammoudi" },
+      "homepage": "https://github.com/Ayoubhm07/katana-forge",
+      "license": "MIT",
+      "keywords": ["frontend", "design", "animation", "3d", "agents"],
+      "category": "design",
+      "strict": false
+    }
+  ]
+}

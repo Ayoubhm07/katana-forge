@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-label="Katana Forge, the frontend hunters for Claude Code">
+  <defs>
+    <radialGradient id="glow" cx="0.32" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#f2b230" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#7c3aed" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#0c0d0f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe7a8"/>
+      <stop offset="0.5" stop-color="#f2b230"/>
+      <stop offset="1" stop-color="#c2801c"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <clipPath id="upper"><polygon points="0,0 1280,0 1280,92 0,328"/></clipPath>
+    <clipPath id="lower"><polygon points="0,328 1280,92 1280,420 0,420"/></clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" fill="#0c0d0f"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <rect width="1280" height="420" fill="url(#glow)"/>
+
+  <g font-family="Archivo, 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="132" letter-spacing="-2">
+    <g clip-path="url(#upper)" transform="translate(-6 -6)">
+      <text x="72" y="236" fill="url(#ink)">KATANA FORGE</text>
+    </g>
+    <g clip-path="url(#lower)" transform="translate(6 6)">
+      <text x="72" y="236" fill="url(#ink)">KATANA FORGE</text>
+    </g>
+  </g>
+
+  <line x1="-20" y1="332" x2="1300" y2="88" stroke="#7dd3fc" stroke-width="16" filter="url(#blur)" opacity="0.8">
+    <animate attributeName="opacity" values="0.45;0.95;0.45" dur="3.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="-20" y1="332" x2="1300" y2="88" stroke="url(#blade)" stroke-width="3"/>
+
+  <text x="76" y="360" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="22" fill="#ede9e1" letter-spacing="1">The frontend hunters for Claude Code.</text>
+  <text x="76" y="394" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="17" fill="#a7a39b" letter-spacing="3">SHOGUN · KAGE · SENSEI · SUMI · KAZE · TETSU · MAMORI · KENSA</text>
+
+  <g transform="translate(1086 300)">
+    <circle r="54" fill="none" stroke="#f2b230" stroke-opacity="0.5" stroke-width="2"/>
+    <circle r="44" fill="#141518" stroke="#f2b230" stroke-opacity="0.25"/>
+    <text y="15" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="900" font-size="40" fill="#f2b230">刀</text>
+  </g>
+</svg>

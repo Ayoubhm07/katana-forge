@@ -1,0 +1,12 @@
+[files]
+extend-exclude = ["docs/fr/**", "README.fr.md", "skills/katana-forge/vendor/**", "package-lock.json", "vendor.lock.json", "*.svg", "*.gif", "*.jpg"]
+
+[default.extend-words]
+Sumi = "Sumi"
+Tetsu = "Tetsu"
+Kensa = "Kensa"
+Mamori = "Mamori"
+sur = "sur"
+
+[default.extend-identifiers]
+pn = "pn"

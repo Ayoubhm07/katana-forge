@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Local gate before every push. Enable once per clone with: git config core.hooksPath .githooks
+set -euo pipefail
+echo "Katana Forge pre-push gate"
+bash "$(git rev-parse --show-toplevel)/scripts/check-all.sh"

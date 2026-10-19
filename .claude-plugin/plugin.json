@@ -1,0 +1,13 @@
+{
+  "name": "katana-forge",
+  "version": "1.0.0",
+  "description": "The frontend hunters. A squad of 8 named Claude Code agents and a battle-tested skill that ship Legends League frontends: cinematic openings, 3D objects that mean something, unseen transitions, real images everywhere, locked truth, green Lighthouse.",
+  "author": {
+    "name": "Ayoub Hammoudi",
+    "url": "https://ayoubhammoudi.com"
+  },
+  "homepage": "https://github.com/Ayoubhm07/katana-forge",
+  "repository": "https://github.com/Ayoubhm07/katana-forge",
+  "license": "MIT",
+  "keywords": ["claude-code", "frontend", "design", "animation", "3d", "agents", "skills", "ui", "ux", "nextjs", "react", "lighthouse", "accessibility"]
+}
